@@ -39,6 +39,7 @@ class _OtpScreenState extends State<OtpScreen> {
                     Padding(
                       padding: EdgeInsets.symmetric(vertical: 14),
                       child: Text(
+                        // use your keyword
                         "Code is sent  ${widget.phoneNumber}",
                         style: TextStyle(
                           fontSize: 22,
